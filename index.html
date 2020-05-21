@@ -1,55 +1,99 @@
 <!DOCTYPE html>
-<html> 
+<html lang="pt-br" > 
 <head>
 	<meta charset="utf-8">
-	<title> Minha primeira pagina</title>
+	<title> Minha primeira página</title>
 	<link rel="stylesheet" type="text/css" href="style.css" >
+	<link rel="stylesheet" type="text/css" href="Aula_bootstrap/bootstrap/css/bootstrap.min.css">
+
 </head>
+
 <body>
 	<!-- nav é elemento de link para navegação-->
-	<nav>
-		<p><h1>Minha página</h1></p>
-		<ul>
-			<li><a href="#Serviços">Serviços </a></li>
-			<li><a href="#Clientes">Cliente</a></li>
-			<li><a href="#contato">Contatos</a></li>
-		</ul>
+<!-- 	<p><h1>Minha página</h1></p>  -->
+
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="#">
+			<img src="imagem/Logo AB.png" width="80" height="80">
+		</a>
+		<div class="collapse navbar-collapse" > 
+
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="#Serviços">Serviços </a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#Parceiros">Parceiros </a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="#contato">contato </a>
+			</li>
+
+
+					</ul>
+		</div>		
 	</nav>
-	
+
+	<section id="Serviços">
+		<div class=" container-fluid ser-vicos text-center margin"> 
+		<h3>SERVIÇOS</h3>
+		<img src="imagem/im1.jpeg" class="rounded-circle"  width="300 px" height="300px" >
+		<h3>Oferecemos os melhores desenvolvimentos de sites e
+			aplicativos
+		  </h3>
+	</div>
+</section>
+
+<section id="Parceiros">
+	<div class="container-fluid text-center margin parceiros">
+		<h3 class="margin" >Parceiros</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<p> dadijdaiajdiajdiajdiajdiajdiadjiadjiajdiadjaidjaidjai</p>
+					<img src="imagem/im3.jpeg" width="100%"> </div>
+					<div class="col-lg-4">
+						<p> dadijdaiajdiajdiajdiajdiajdiadjiadjiajdiadjaidjaidjai</p>
+						<img src="imagem/im3.jpeg" width="100%"> </div>
+						<div class="col-lg-4">
+							<p> dadijdaiajdiajdiajdiajdiajdiadjiadjiajdiadjaidjaidjai</p>
+							<img src="imagem/im3.jpeg" width="100%"> </div>	
+				</div>
+		</div>
+	</div>
+</section>
+
+<section id="contato">
+	<div class="container-fluid text-center margin contato">
+		<h3 class="margin">Contato</h3>
+		<p>Para entrar em contato use um dos meios abaixo:</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="imagem/tel.jpeg" width="30px"> <a href="tel:99999999"> (99)9999999</a> </div>
+					<div class="col-lg-6">
+						<img src="imagem/email.jpg" width="30px"><a href="nailto:contato@gmail.com"> contato@empresa.com</a>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="container-fluid text-center bg-footer">
+	<p>Desenvolvido por Ana Baraúna </p>
+</footer>
+
+
+		<!--fluid faz com que a cor vá de canto a canto, o text-center faz com que o texto centralize e margin é a margem-->
+	<!-- 
 	<header>
 		<h1>Minha página </h1>
 		<p> Oferecemos o desenvolvimentos dos melhores sites e apps para sua empresas </p>
-	</header>
-
-<!-- define uma sessão para separar sessão de conteúdos, ex: Noticia, esportes, entretedimento -->
-	<section id="Serviços">
-		<h2>SERVIÇOS</h2>
-		<p>Oferecemos os melhores desenvolvimentos de sites e
-		   aplicativos</p>
-		   <img src="imagem/im1.jpeg" width="300 px" >
-
-	</section>
-	<section id= Clientes>
-		<h2>CLIENTES</h2>
-		<p>Nossos clientes ficaram muito satisfeito com nossos serviços</p>	
-	</section>
-
-	<section id="contato">
-		<h2>Contato</h2>
-		<p>Entre em contato </p>
-		<div>
-			<p> <a href="tel:99999999"> (99)9999999</a></p>
-		</div>
-		<div>
-			<p> <a href="nailto:contato@gmail.com"> contato@empresa.com</a>
-
-			</p>
-		</div>
-		
-	</section>
-	<footer>
-		<p>Desenvolvido por Ana Baraúna </p>
-	</footer>
+	</header> 
+	 -->
 </body>
 
 </html>

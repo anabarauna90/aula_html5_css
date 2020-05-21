@@ -1,9 +1,35 @@
-body{
+body {
+    font: 20px Arial, sans-serif;
+}
+
+
+.navbar {
+    background-color: greenyellow ;
+}
+
+.ser-vicos {
+    background-color: black;
+    color: greenyellow;
+}
+ .margin {
+     padding-top: 30px;
+     padding-bottom: 30px;
+ }
+.contato {
+    background-color: greenyellow;
+
+}
+
+.bg-footer{
+    background-color: grey;
+}
+
+/* body{
     background: #e8c5c5;
     margin-left: 100px;
     margin-right: 200px;
 }
-
+ a diferença entre padding e margin é que a margem externa da palavra enquanto a pedding é a interna.
 header{
     margin-top: 70px;
 }
@@ -23,5 +49,5 @@ p{
 }
 
 footer{
-    margin-bottom: 30px;
-}
+    margin-bottom: 30px; 
+} */
